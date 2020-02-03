@@ -1,0 +1,26 @@
+/*
+Theme Name: Hackagong.com
+Theme URI: 
+Author: Hackagong
+Description: Custom Hackagong event theme
+Version: 1.0
+Template: hackagong
+*/
+
+@import url("/wp-content/themes/hackagong/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* navbar overlap fix */
+.navbar-collapse {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+}
